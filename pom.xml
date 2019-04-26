@@ -11,7 +11,7 @@
 
     <properties>
         <karaf-version>4.2.5</karaf-version>
-        <javax-karaf-features-version>1.0.0</javax-karaf-features-version>
+        <javax-karaf-features-version>1.0.1</javax-karaf-features-version>
     </properties>
 
     <description>Karaf Apache Commons  features</description>

@@ -1,4 +1,4 @@
-# Karaf fearture apache commons
+# Karaf feature apache commons
 
 Externsion to karaf which adds Apache Commons bundles to karaf features.
 
