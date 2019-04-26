@@ -166,7 +166,7 @@ release:
     - script:
       name: git checkout master
       code: |-
-             git checkout -b master origin/master
+             git checkout master
 
 
     - script:

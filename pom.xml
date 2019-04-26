@@ -3,7 +3,7 @@
          xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
     <modelVersion>4.0.0</modelVersion>
     <groupId>hu.blackbelt.karaf.features</groupId>
-    <version>1.0.0-SNAPSHOT</version>
+    <version>1.0.1</version>
 
     <artifactId>apache-commons</artifactId>
     <name>Apache commons karaf feature project</name>
@@ -11,7 +11,7 @@
 
     <properties>
         <karaf-version>4.2.5</karaf-version>
-        <javax-karaf-feature-version>1.0.0</javax-karaf-feature-version>
+        <javax-karaf-features-version>1.0.0</javax-karaf-features-version>
     </properties>
 
     <description>Karaf Apache Commons  features</description>

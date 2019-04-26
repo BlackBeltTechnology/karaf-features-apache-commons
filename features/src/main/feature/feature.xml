@@ -4,30 +4,6 @@
     xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
     xsi:schemaLocation="http://karaf.apache.org/xmlns/features/v1.5.0 http://karaf.apache.org/xmlns/features/v1.5.0">
 
-    
-    <feature name="apache-commons" version="${project.version}" description="Apache Commons All" install="false">
-<!--        <feature>javax-mail-api</feature>
-        <feature>javax-servlet-api</feature>
-        <feature dependency="true">transaction-api</feature> -->
-        <feature>apache-commons-beanutils</feature>
-        <feature>apache-commons-collections</feature>
-        <feature>apache-commons-collections4</feature>
-        <feature>apache-commons-io</feature>
-        <feature>apache-commons-pool</feature>
-        <feature>apache-commons-pool2</feature>
-        <feature>apache-commons-dbcp2</feature>
-        <feature>apache-commons-codec</feature>
-        <feature>apache-commons-fileupload</feature>
-        <feature>apache-commons-lang</feature>
-        <feature>apache-commons-logging</feature>
-        <feature>apache-commons-configuration</feature>
-        <feature>apache-commons-math3</feature>
-        <feature>apache-commons-math</feature>
-        <feature>apache-commons-lang3</feature>
-        <feature>apache-commons-csv</feature>
-        <feature>apache-commons-compress</feature>
-    </feature>
-
     <feature name="apache-commons-beanutils" version="1.9.2" description="Apache Commons Bean Utils" install="false">
         <feature>apache-commons-collections</feature>
         <bundle>mvn:commons-beanutils/commons-beanutils/1.9.2</bundle>
@@ -99,6 +75,14 @@
     
     <feature name="apache-commons-compress" version="1.18" description="Apache Commons Compress" install="false">
         <bundle>mvn:org.apache.commons/commons-compress/1.18</bundle>
+    </feature>
+
+    <feature name="apache-commons-bcel" version="5.2" description="Apache Common BCel" install="false">
+        <bundle>mvn:org.apache.servicemix.bundles/org.apache.servicemix.bundles.bcel/5.2_4</bundle>
+    </feature>
+
+    <feature name="apache-xmlbeans2" version="2.6.0" description="Apache XMLBeans" install="false">
+        <bundle>mvn:org.apache.servicemix.bundles/org.apache.servicemix.bundles.xmlbeans/2.6.0_2</bundle>
     </feature>
 
 </features>
