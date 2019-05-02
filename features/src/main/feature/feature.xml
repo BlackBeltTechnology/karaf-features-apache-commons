@@ -53,7 +53,8 @@
         <bundle>mvn:org.apache.commons/com.springsource.org.apache.commons.logging/1.1.1</bundle>
     </feature>
     
-    <feature name="apache-commons-configuraton" version="1.10" description="Apache Commons Configuration" install="false">
+    <feature name="apache-commons-configuration" version="1.10" description="Apache Commons Configuration" install="false">
+        <feature>apache-commons-lang</feature>
         <bundle>mvn:commons-configuration/commons-configuration/1.10</bundle>
     </feature>
     
