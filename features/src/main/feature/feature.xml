@@ -86,4 +86,7 @@
         <bundle>mvn:org.apache.servicemix.bundles/org.apache.servicemix.bundles.xmlbeans/2.6.0_2</bundle>
     </feature>
 
+    <feature name="apache-jexl3" version="" description="Apache JEXL3" install="false">
+        <bundle>mvn:org.apache.commons/commons-jexl3/3.1</bundle>
+    </feature>
 </features>
