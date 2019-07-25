@@ -40,7 +40,7 @@
     </feature>
     
     <feature name="apache-commons-fileupload" version="1.3.1" description="Apache Commons Fileupload" install="false">
-        <feature dependency="true">javax-servlet-api3</feature>
+        <feature dependency="true">http</feature>
         <feature>apache-commons-io</feature>
         <bundle>mvn:commons-fileupload/commons-fileupload/1.3.1</bundle>
     </feature>
@@ -86,7 +86,8 @@
         <bundle>mvn:org.apache.servicemix.bundles/org.apache.servicemix.bundles.xmlbeans/2.6.0_2</bundle>
     </feature>
 
-    <feature name="apache-jexl3" version="" description="Apache JEXL3" install="false">
+    <feature name="apache-jexl3" version="3.1" description="Apache JEXL3" install="false">
         <bundle>mvn:org.apache.commons/commons-jexl3/3.1</bundle>
     </feature>
+
 </features>

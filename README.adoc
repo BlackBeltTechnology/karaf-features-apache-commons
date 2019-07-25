@@ -2,10 +2,6 @@
 
 Externsion to karaf which adds Apache Commons bundles to karaf features.
 
-To install javax features required. Please add the folloeing repository to your distribution: 
-
-- mvn:hu.blackbelt.karaf.features/javax/1.0.0/xml/features (Github: https://github.com/BlackBeltTechnology/karaf-features-javax)
-
 ## Features:
 
 - apache-commons-beanutils 1.9.2
@@ -25,4 +21,6 @@ To install javax features required. Please add the folloeing repository to your 
 - apache-commons-lang2 3.6
 - apache-commons-csv 1.6 
 - apache-commons-compress 1.18 
-
+- apache-commons-bcel 5.2
+- apache-xmlbeans2 2.6.0
+- apache-jexl3 3.1
