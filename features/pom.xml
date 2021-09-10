@@ -93,6 +93,7 @@
                                 <feature>apache-commons-compress</feature>
                                 <feature>apache-commons-bcel</feature>
                                 <feature>apache-xmlbeans2</feature>
+                                <feature>apache-xmlbeans3</feature>
                                 <feature>apache-jexl3</feature>
                             </features>
                         </configuration>

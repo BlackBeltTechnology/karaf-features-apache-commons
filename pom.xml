@@ -10,7 +10,7 @@
     <packaging>pom</packaging>
 
     <properties>
-        <karaf-version>4.2.5</karaf-version>
+        <karaf-version>4.2.9</karaf-version>
     </properties>
 
     <description>Karaf Apache Commons  features</description>
