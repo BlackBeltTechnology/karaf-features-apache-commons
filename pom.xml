@@ -16,19 +16,21 @@
         <maven>3.8.3</maven>
     </properties>
 
-    <description>Karaf Apache Commons  features</description>
+    <description>Karaf Apache Commons features</description>
     <url>https://github.com/BlackBeltTechnology/karaf-features-${project.artifactId}</url>
     <issueManagement>
         <url>https://github.com/BlackBeltTechnology/karaf-features-${project.artifactId}/issues</url>
         <system>GitHub Issues</system>
     </issueManagement>
-    
+
     <scm>
         <connection>scm:git:git://github.com/BlackBeltTechnology/karaf-features-${project.artifactId}.git</connection>
-        <developerConnection>scm:git:ssh://${git.username}@github.com:BlackBeltTechnology/karaf-features-${project.artifactId}.git</developerConnection>
+        <developerConnection>
+            scm:git:ssh://${git.username}@github.com:BlackBeltTechnology/karaf-features-${project.artifactId}.git
+        </developerConnection>
         <url>https://github.com/BlackBeltTechnology/karaf-features-${project.artifactId}</url>
     </scm>
-    
+
     <developers>
         <developer>
             <id>robson</id>
@@ -39,7 +41,7 @@
             <organizationUrl>http://www.blackbelt.hu</organizationUrl>
         </developer>
     </developers>
-    
+
     <licenses>
         <license>
             <name>The Apache Software License, Version 2.0</name>
@@ -76,7 +78,7 @@
                         </execution>
                     </executions>
                 </plugin>
-                
+
                 <plugin>
                     <groupId>org.apache.maven.plugins</groupId>
                     <artifactId>maven-deploy-plugin</artifactId>
@@ -98,7 +100,7 @@
                     <artifactId>build-helper-maven-plugin</artifactId>
                     <version>3.0.0</version>
                 </plugin>
-                
+
 
             </plugins>
         </pluginManagement>
