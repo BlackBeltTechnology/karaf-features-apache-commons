@@ -1,6 +1,9 @@
 # Karaf feature apache commons
 
+image::https://github.com/BlackBeltTechnology/karaf-features-apache-commons/actions/workflows/build.yml/badge.svg?branch=develop[link="https://github.com/BlackBeltTechnology/karaf-features-apache-commons/actions/workflows/build.yml" float="center"]
+
 Externsion to karaf which adds Apache Commons bundles to karaf features.
+
 
 ## Features:
 
@@ -24,3 +27,12 @@ Externsion to karaf which adds Apache Commons bundles to karaf features.
 - apache-commons-bcel 5.2
 - apache-xmlbeans2 2.6.0
 - apache-jexl3 3.1
+
+== Contributing to the project
+
+Everyone is welcome to contribute to karaf-features-apache-commons! As a starter, please read the corresponding link:CONTRIBUTING.adoc[CONTRIBUTING] guide for details!
+
+
+== License
+
+This project is licensed under the https://www.apache.org/licenses/LICENSE-2.0[Apache License 2.0].
